@@ -9,8 +9,9 @@ export default function Signin() {
   return (
     <div
       style={{ backgroundColor: "#323842", fontFamily: "Manrope" }}
-      className=" w-full h-screen flex flex-col justify-center items-center"
+      className=" w-full h-screen flex flex-col justify-center items-center relative "
     >
+      <div className="absolute top-0 h-20 w-full text-white text-2xl px-5">AiWorkSquad </div>
       <div style={{ backgroundColor: "#171A1F" }} className=" w-1/3 h-2/3">
         <div className="flex flex-col justify-center items-center py-3">
           <p className="text-3xl text-white pb-6">Welcome Back</p>
@@ -45,6 +46,7 @@ export default function Signin() {
         </div>
         </div>
       </div>
+      <footer  className='absolute bottom-0 text-white'  style={{ backgroundColor: "#323842", fontFamily: "Manrope" }}> 2023 Aiworksquad</footer>
     </div>
   );
 }
